@@ -22,8 +22,8 @@ driver.maximize_window()
 driver.get('https://github.com/login')
 
 #credentials for to be used in logging in
-username = "nyikotaker@gmail.com"
-password = "Maswanganyi77"
+username = "*********"
+password = "*********"
 
 driver.find_element(By.ID, 'login_field').send_keys(username)
 # find password input field and insert password as well
