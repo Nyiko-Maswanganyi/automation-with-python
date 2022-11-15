@@ -4,10 +4,6 @@ from selenium.webdriver.common.keys import Keys #Actions with the keyboard
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.common.by import By
 from selenium.webdriver.chrome.options import Options
-import pandas as pd
-import time
-import numpy as np
-import datetime
 options = Options()
 options.headless = True
 options.add_argument("--window-size=1920,1200")
